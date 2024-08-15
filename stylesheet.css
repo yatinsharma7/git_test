@@ -1,0 +1,47 @@
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    border: 3px solid blue;
+    padding: 12px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+
+
+.item {
+    background: rgb(220, 138, 66);
+    border: 2px solid brown;
+    height: 150px;
+    width: 100px;
+    padding: 12px;
+    flex: 1;
+}
+
+.two {
+    background: rgb(219, 141, 181) ;  
+    border: 2px solid rgb(64, 105, 195);
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    align-items: center;
+}
+
+.two-sub {
+    background: rgb(223, 76, 76);
+    border: 2px solid rgb(216, 65, 11);
+    height: 100px;
+    width: 30px;
+    flex: 1;
+    
+}
+
+
+
+
+
+
+
